@@ -7,18 +7,12 @@
   'opsz' 24
 }
 
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
-}
 
-body{
+.home-page{
     margin:0;
     background-color: #FFFFFF;
     color: #0D0D0D;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -31,28 +25,28 @@ header{
 
 .logo{
     position:absolute;
-    top: 5px;
+    top: 8px;
     left: 10px;
     color: #0D0D0D;
-    font-size: 16px;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .logo img{
-    height:16px;
-    width: 16px;
-    top:10px;
-    left:5px;
+    height:24px;
+    width: 24px;
+    vertical-align: middle;
 }
 
 .logo .material-symbols-outlined{
     font-size: 14px;
-    top:20px;
 
 }
 
+
 nav{
     position: absolute;
-    top: 20px;
+    top: 10px;
     left:30%;
 }
 
@@ -60,19 +54,22 @@ nav a{
     color: #5D5D5D;
     text-decoration: none;
      margin: 0 13px;
+     font-size: 14px;
 
 }
 
 .user-button{
     position:absolute;
-    top: 10px;
+    top: 5px;
     right: 10px;
+    
 }
 
 .user-button button{
  padding:10px;
  border-radius: 30px;
 }
+
 
 .login {
     background-color: #0D0D0D;
@@ -84,19 +81,25 @@ nav a{
     background-color: white;
     color: #0D0D0D;
     border: 1px solid #EAEAEA;
-}
 
-.help {
-    width: 30px;
-    height: 30px;
-    border: 1px solid #999;
-    background-color: white;
-    border-radius: 50%;
+
 }
+.help {
+    width: 40px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    padding: 0;
+    vertical-align: middle;
+}
+.user-button .help span {
+    font-size: 25px;
+}
+   
 
 main {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 35%;
     width: 600px;
     text-align: center;
@@ -105,18 +108,20 @@ main {
 
 h1 {
     font-size: 25px;
-    margin-bottom:20px;
+    margin-bottom:30px;
     font-weight: normal;
+    font-family: "Inter", sans-serif;
 }
 
 .question-box {
     border: 1px solid #EAEAEA;
     border-radius: 24px;
-    padding: 15px;
+    padding: 12px;
     text-align:left;
 }
 
 .question-box input {
+    outline: none;
     border: none;
     font-size: 14px;
     padding: 8px 0 18px;
@@ -126,7 +131,7 @@ h1 {
     color: #8F8F8F;
 }
 
-buttons{
+.buttons{
     position: relative;
 }
 
@@ -134,7 +139,7 @@ buttons{
     background-color: white;
     border: 1px solid #EAEAEA;
     border-radius: 20px;
-    padding: 8px 10px;
+    padding: 7px 10px;
     font-size: 12px;
     color: #5D5D5D;
 }
@@ -142,15 +147,15 @@ buttons{
 .buttons .voice {
     position: absolute;
     right: 10px;
-    bottom:15px;
+    /* bottom:2px; */
     background-color: #ECECEC;
     border: none;
 }
 
+.buttons span{
+     vertical-align: middle;
+     font-size:12px;
+     font-weight: bold;
 
-
-
-
-
-
+}
 

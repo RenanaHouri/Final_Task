@@ -1,0 +1,193 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+.agent-page{
+    margin:0;
+    background-color: #FFFFFF;
+    color: #0D0D0D;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    position: relative;
+    height: 65px;
+    padding: 16px 20px;
+}
+
+
+
+.logo{
+    position:absolute;
+    top: 8px;
+    left: 10px;
+    color: #0D0D0D;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.logo img{
+    height:24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+.logo .material-symbols-outlined{
+    font-size: 14px;
+
+}
+
+
+nav{
+    position: absolute;
+    top: 10px;
+    left:30%;
+}
+
+nav a{
+    color: #5D5D5D;
+    text-decoration: none;
+     margin: 0 13px;
+     font-size: 14px;
+
+}
+
+.user-button{
+    position:absolute;
+    top: 5px;
+    right: 10px;
+    
+}
+
+.user-button button{
+ padding:10px;
+ border-radius: 30px;
+}
+
+
+.login {
+    background-color: #0D0D0D;
+    color: white;
+    border: none;
+}
+
+.sign-up {
+    background-color: white;
+    color: #0D0D0D;
+    border: 1px solid #EAEAEA;
+
+
+}
+.help {
+    width: 40px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    padding: 0;
+    vertical-align: middle;
+}
+.user-button .help span {
+    font-size: 25px;
+}
+   
+
+.agent-page main{
+    display: flex;
+   width:1000px; 
+   margin:0 auto;
+
+   
+}
+
+.agent-text{
+    position: relative;
+    top: 55px;
+    width: 50%;
+    display: inline-block;
+    margin-right: 90px;
+    
+}
+
+.agent-text h1{
+    font-size: 48px;
+    font-weight: 530;
+    margin-bottom: 20px;
+}
+
+.agent-visual {
+    background:
+        radial-gradient(
+            ellipse at 15% 65%,
+            #6B94FC,
+            transparent 40%
+        ),
+        radial-gradient(
+            ellipse at 90% 80%,
+            #6B94FC,
+            transparent 40%
+        ),
+        radial-gradient(
+            ellipse at 50% 25%,
+            #87C9F8,
+            transparent 60%
+        ),
+        linear-gradient(
+            135deg,
+            #87C9F8,
+            #5AA7F7
+        );
+
+
+    display:inline-block;
+    border-radius: 15px;
+    width: 480px;
+    height: 480px;
+    position: relative;
+}
+.agent-description{
+    font-weight: 400;
+}
+
+.agent-box{
+    position: absolute;
+    width:82%;
+    color:#5D5D5D;
+    background-color: #ffffff;
+    border-radius: 15px;
+    left:6%;
+    top:180px;
+    padding: 15px;
+
+}
+
+
+.agent-availability{
+    color:#5D5D5D;
+    margin:30px,8px;
+}
+
+.agent-box-title{
+    margin:0;
+    font-weight: 600;
+    color: #535353;
+}
+
+.agent-box-description
+{
+    margin: 10px 0 0 0;
+    color: #4C4C4C;
+}
+
+.agent-button{
+    background-color: #0D0D0D;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 13px;
+}
